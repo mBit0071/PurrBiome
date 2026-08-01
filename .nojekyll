@@ -1,0 +1,4 @@
+# This file tells GitHub Pages not to process this site with Jekyll.
+# It ensures files and directories starting with underscores (e.g., .github)
+# are published as-is on GitHub Pages.
+

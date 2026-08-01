@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <meta name="description" content="Page not found — this cat couldn't find what you were looking for. Head back to PurrBiome's homepage." />
+  <title>404 — Page Not Found 🐾 PurrBiome</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    .error-page {
+      min-height: calc(100dvh - var(--nav-height));
+      display: flex;
+      align-items: center;
+      padding: 72px 0;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .error-page::before {
+      content: "";
+      position: absolute;
+      top: -140px;
+      right: -120px;
+      width: 420px;
+      height: 420px;
+      background: radial-gradient(circle, rgba(143, 174, 139, 0.25) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .error-page::after {
+      content: "";
+      position: absolute;
+      bottom: -160px;
+      left: -100px;
+      width: 380px;
+      height: 380px;
+      background: radial-gradient(circle, rgba(91, 75, 138, 0.18) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .error-code {
+      font-family: var(--font-heading);
+      font-size: clamp(5rem, 14vw, 9rem);
+      font-weight: 800;
+      line-height: 1;
+      background: var(--grad-primary);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+
+    .error-cat {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      margin-bottom: 16px;
+    }
+
+    .error-page h1 {
+      font-size: clamp(1.6rem, 3.4vw, 2.3rem);
+      margin-bottom: 12px;
+    }
+
+    .error-page p {
+      color: var(--ink-soft);
+      max-width: 30em;
+      margin: 0 auto 32px;
+    }
+
+    .error-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER (shared)
+       ============================================================ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-paw">🐾</span> PurrBiome
+      </a>
+
+      <button
+        class="nav-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+      >
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="science.html">Science</a>
+        <a href="features.html">Features</a>
+        <a
+          href="https://PurrBiome.streamlit.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn--primary btn--sm nav-mobile-cta"
+        >
+          Try Interactive Demo
+        </a>
+      </nav>
+
+      <div class="nav-cta">
+        <a
+          href="https://PurrBiome.streamlit.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn--primary"
+        >
+          Try Interactive Demo
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="error-page">
+      <div class="container">
+        <div class="error-cat">🐱</div>
+        <div class="error-code">404</div>
+        <h1>This page got lost chasing butterflies.</h1>
+        <p>
+          The page you're looking for has wandered off — or never existed.
+          Let's get you back to PurrBiome's homepage and find something useful.
+        </p>
+        <div class="error-actions">
+          <a href="index.html" class="btn btn--primary">Back to Home</a>
+          <a href="science.html" class="btn btn--secondary">Explore the Science</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       FOOTER (shared)
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <span class="logo-paw">🐾</span> PurrBiome
+          </a>
+          <p>
+            Empowering cat parents with microbiome science and AI-driven insights
+            to help their feline friends live longer, healthier, happier lives.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="science.html">Science</a></li>
+            <li><a href="features.html">Features</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://PurrBiome.streamlit.app/" target="_blank" rel="noopener noreferrer">Streamlit Demo</a></li>
+            <li><a href="#">Twitter / X</a></li>
+            <li><a href="#">GitHub</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-cta">
+          <h4>Try the demo</h4>
+          <p style="font-size:0.92rem; margin-bottom:12px; color:rgba(255,255,255,0.65);">
+            Explore the interactive app right now.
+          </p>
+          <a
+            href="https://PurrBiome.streamlit.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn--accent"
+          >
+            Launch App Demo
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; <span id="current-year">2025</span> PurrBiome. All rights reserved.
+        Built with care for feline wellness.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

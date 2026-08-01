@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://PurrBiome.github.io/PB_landingPage/sitemap.xml
+
