@@ -1,4 +1,4 @@
-# PurrBiome Landing Page — Build Checklist
+# PurrTwin Landing Page — Build Checklist
 
 ## Phase 1: Shared Foundation
 - [x] Create `css/style.css` (design system, layout, components, responsive breakpoints)

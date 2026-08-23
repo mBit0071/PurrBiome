@@ -1,6 +1,6 @@
-# PurrBiome Landing Page
+# PurrTwin Landing Page
 
-Multi-page static marketing website for **PurrBiome**, a feline health and gut-microbiome tracking platform. The site is built with semantic HTML5, modern CSS, and vanilla JavaScript. It requires no build tooling or runtime dependencies and is intended for hosting on GitHub Pages.
+Multi-page static marketing website for **PurrTwin**, a feline health and gut-microbiome tracking platform. The site is built with semantic HTML5, modern CSS, and vanilla JavaScript. It requires no build tooling or runtime dependencies and is intended for hosting on GitHub Pages.
 
 Live application demo: https://PurrBiome.streamlit.app/
 
@@ -76,5 +76,5 @@ Typography is loaded from Google Fonts: **Plus Jakarta Sans** for headings and *
 
 ## License
 
-Copyright (c) PurrBiome. All rights reserved.
+Copyright (c) PurrTwin. All rights reserved.
 

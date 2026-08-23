@@ -1,5 +1,5 @@
 /* ============================================================
-   PurrBiome — main.js
+  PurrTwin — main.js
    Shared interactivity across all landing pages
    ============================================================ */
 
