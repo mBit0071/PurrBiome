@@ -624,7 +624,7 @@ h1, h2, h3, h4 {
 .waitlist-banner {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   gap: 28px;
   padding: 48px 56px;
   background: var(--secondary-light);
@@ -632,14 +632,18 @@ h1, h2, h3, h4 {
   border-radius: var(--radius-lg);
 }
 
-.waitlist-banner > div:first-child {
+.waitlist-banner .waitlist-copy,
+.waitlist-banner .form-container {
   width: 100%;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.waitlist-banner .waitlist-copy {
   text-align: center;
 }
 
 .waitlist-banner .form-container {
-  width: 100%;
-  max-width: 800px;
   background: var(--white);
   border-radius: var(--radius-md);
   overflow: hidden;
