@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Get in touch with PurrTwin or join our waitlist." />
+  <title>Contact Us 🐾 — PurrTwin</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <style>
+    .form-container {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+      padding: 40px;
+      max-width: 800px;
+      margin: -60px auto 60px;
+      position: relative;
+      z-index: 10;
+      min-height: 600px;
+    }
+    
+    @media (max-width: 768px) {
+      .form-container {
+        padding: 20px;
+        margin-top: -30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER (shared)
+       ============================================================ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-paw">🐾</span> PurrTwin
+      </a>
+
+      <button
+        class="nav-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+      >
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="science.html">Science</a>
+        <a href="features.html">Features</a>
+        <a href="waitlist.html" class="active">Waitlist</a>
+        <a
+          href="https://PurrBiome.streamlit.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn--primary btn--sm nav-mobile-cta"
+        >
+          Try Interactive Demo
+        </a>
+      </nav>
+
+      <div class="nav-cta">
+        <a
+          href="https://PurrBiome.streamlit.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn--primary"
+        >
+          Try Interactive Demo
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================================
+         PAGE HERO
+         ============================================================ -->
+    <section class="page-hero">
+      <div
+        class="page-hero-bg"
+        style="background-image: url('assets/images/features-hero-bg.jpg');"
+      >
+        <div></div>
+      </div>
+      <div class="container">
+        <div class="eyebrow">Get in Touch</div>
+        <h1>Contact Us</h1>
+        <p>
+          Have questions about your cat's microbiome or want to join our early access list? Fill out the form below.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FORM SECTION
+         ============================================================ -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="form-container">
+          <!-- ZOHO FORM EMBED START -->
+          <iframe 
+            aria-label="Contact Form" 
+            frameborder="0" 
+            style="height: 600px; width: 100%; border: none;" 
+            src="https://forms.zohopublic.com/soumyadu1/form/HowCatCaregiversManageHealthBetweenVeterinaryVisit/formperma/HQYIHUDQPAuvxthX2m_h2sSEdrdwWFxbhNxfDLodlNQ">
+          </iframe>
+          <!-- ZOHO FORM EMBED END -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       FOOTER (shared)
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <span class="logo-paw">🐾</span> PurrTwin
+          </a>
+          <p>
+            Empowering cat parents with microbiome science and AI-driven insights
+            to help their feline friends live longer, healthier, happier lives.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="science.html">Science</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="waitlist.html">Waitlist</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://PurrBiome.streamlit.app/" target="_blank" rel="noopener noreferrer">Streamlit Demo</a></li>
+            <li><a href="#">Twitter / X</a></li>
+            <li><a href="#">GitHub</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-cta">
+          <h4>Try the demo</h4>
+          <p style="font-size:0.92rem; margin-bottom:12px; color:rgba(255,255,255,0.65);">
+            Explore the interactive app right now.
+          </p>
+          <a
+            href="https://PurrBiome.streamlit.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn--accent"
+          >
+            Launch App Demo
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; <span id="current-year">2025</span> PurrTwin. All rights reserved.
+        Built with care for feline wellness.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

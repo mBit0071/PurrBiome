@@ -620,6 +620,56 @@ h1, h2, h3, h4 {
 /* ============================================================
    Demo Banner (Home)
    ============================================================ */
+.waitlist-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  padding: 48px 56px;
+  background: var(--secondary-light);
+  border: 1px solid rgba(110, 143, 106, 0.24);
+  border-radius: var(--radius-lg);
+}
+
+.waitlist-banner > div:first-child {
+  width: 100%;
+  text-align: center;
+}
+
+.waitlist-banner .form-container {
+  width: 100%;
+  max-width: 800px;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.waitlist-banner iframe {
+  display: block;
+  width: 100%;
+  min-height: 600px;
+}
+
+.waitlist-banner .eyebrow {
+  margin-bottom: 12px;
+}
+
+.waitlist-banner h2 {
+  max-width: 22em;
+  margin-bottom: 12px;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+}
+
+.waitlist-banner p {
+  max-width: 38em;
+  margin-bottom: 0;
+  color: var(--ink-soft);
+}
+
+.waitlist-banner .btn {
+  flex-shrink: 0;
+}
+
 .demo-banner {
   position: relative;
   background: var(--grad-primary);
@@ -1317,6 +1367,12 @@ h1, h2, h3, h4 {
   .demo-banner {
     padding: 56px 32px;
     text-align: center;
+  }
+
+  .waitlist-banner {
+    padding: 40px 32px;
+    text-align: center;
+    flex-direction: column;
   }
 
   .demo-banner p {
